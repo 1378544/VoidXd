@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="VoidX.exe" version="1.0.0.1" publicKeyToken="c7f4153c8d9f30b7" language="neutral" processorArchitecture="amd64" type="win32" />
+  <description asmv2:iconFile="Screenshot_77.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="VoidX" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+    <commandLine file="VoidX.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FastColoredTextBox.dll" size="330752">
+      <assemblyIdentity name="FastColoredTextBox" version="2.16.24.0" publicKeyToken="FB8AA12B994EF61B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rJJsksz8N4mlrlccxEFesYl9UAp5YE2ElSQcGazfAbk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ForlornApi.dll" size="12288">
+      <assemblyIdentity name="ForlornApi" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bP2yH9YJrzVPaSgGjnji+28NmeUEpWNwCMzyccmUPLQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TabStrip.dll" size="45056">
+      <assemblyIdentity name="TabStrip" version="2.0.2523.29272" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+t7OoO8NnV+k6FznVE2ZJZ/WpexFY41jh90hlaIjwoQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VoidX.exe" size="1126872">
+      <assemblyIdentity name="VoidX" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1Ze6aPa0XWjjqSxBqjurEC/sS0SVooqi8OfeWvb45w8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Screenshot_77.ico" size="246542">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cqCAVO82i2bIquGKKrahhZO570J2IqsHwfeiDPMKp48=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="VoidX.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-TOUTCHV\User" issuerKeyHash="4fe8bb4fd2b4c899dec2993b9560a6cdb7ebd206" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/YYmzd0KpYy2XMuhJptQkrIfWa6LId4YOlovU07wckM=</DigestValue></Reference></SignedInfo><SignatureValue>GZMRVXCkldvwnCJhXvFmbzncVKHxNJX3cVOalYo7E8gHYtGdstpCkCVtdvVDE9lQ0/p6VSzeYVHKkwD5K2tY+P+q7fGIA2XKSEs8lwYG/ealwMut1zpX2o4V2pnIC4D1PjLoDWQu+RO5HTxTWxKtYHsQ8KsCAoJwEFQJckvV804=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vP1URgn+1g3G7u++8PEp/+TumMYJoiZyU1i4+iHUUPEQV434litZp8YV3XlstFzSeP8KUWv7HvjRe8xB+0ZfDFUhD+ZGeEryyQkgUCZtmZ7Rv+v/xfs50oW+VAMfxR31fkcO29Zrs8ubBip5S+VD2AsXOae5KIE5LuJYZLnbLUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4372f04e532f5a3a18de218bae591fb292509b26a1cb5cb68ca50addcd2686fd" Description="" Url=""><as:assemblyIdentity name="VoidX.exe" version="1.0.0.1" publicKeyToken="c7f4153c8d9f30b7" language="neutral" processorArchitecture="amd64" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TOUTCHV\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/021/qU3Q9ySZaoPp+r8go5S6rN4261KjEBvNsrNK+U=</DigestValue></Reference></SignedInfo><SignatureValue>oW7ASxC5+QLJhBV8Ii71XZBKnHF+tBxQh8+wnGtkcVsB3bDir6eJ2bBe2ckCAfpCd1nunsJdLJj4I1ndL0KdeWWLwcM/diaOAw6KijTmTgdL1NutK1/PpD1XYlU9pBKcg5n3oqSDmGke2DLDAirZwxCXUrvQxKPm8Ehbopty9eM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vP1URgn+1g3G7u++8PEp/+TumMYJoiZyU1i4+iHUUPEQV434litZp8YV3XlstFzSeP8KUWv7HvjRe8xB+0ZfDFUhD+ZGeEryyQkgUCZtmZ7Rv+v/xfs50oW+VAMfxR31fkcO29Zrs8ubBip5S+VD2AsXOae5KIE5LuJYZLnbLUU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQWd0rbzgFBZBJBCt/KA0eDjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFQATwBVAFQAQwBIAFYAXABVAHMAZQByMB4XDTI0MTAwNDE0MjIyOFoXDTI1MTAwNDIwMjIyOFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBUAE8AVQBUAEMASABWAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvP1URgn+1g3G7u++8PEp/+TumMYJoiZyU1i4+iHUUPEQV434litZp8YV3XlstFzSeP8KUWv7HvjRe8xB+0ZfDFUhD+ZGeEryyQkgUCZtmZ7Rv+v/xfs50oW+VAMfxR31fkcO29Zrs8ubBip5S+VD2AsXOae5KIE5LuJYZLnbLUUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAXbYjoozaFhp68mfIUE+Lix/9OyRT8C+/kVHTemuWr1OMOYpfm5rTfBd8h3Ng5cusmkA8IAu5S9m4BsGMkdh9rKwnld4Kytfw7XkJG0WRCrJ1ydAsevogK+auNvYGqNS1DjPVjb/fc7R6r7hk5sAguqkIiztIaZJmtb7+pM+7MKQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\FOP\FOP\bin\Debug\FastColoredTextBox.dll
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\FOP.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\FOP.Form1.resources
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\FOP.csproj.GenerateResource.cache
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\FOP.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\FOP.csproj.Up2Date
+C:\Users\User\source\repos\FOP\FOP\bin\Debug\ForlornApi.dll
+C:\Users\User\source\repos\FOP\FOP\bin\Debug\VoidX.exe.config
+C:\Users\User\source\repos\FOP\FOP\bin\Debug\VoidX.exe
+C:\Users\User\source\repos\FOP\FOP\bin\Debug\VoidX.pdb
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\VoidX.Properties.Resources.resources
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\VoidX.exe
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\VoidX.pdb
+C:\Users\User\source\repos\FOP\FOP\bin\Debug\VoidX.exe.manifest
+C:\Users\User\source\repos\FOP\FOP\bin\Debug\VoidX.application
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\VoidX.exe.manifest
+C:\Users\User\source\repos\FOP\FOP\obj\Debug\VoidX.application
